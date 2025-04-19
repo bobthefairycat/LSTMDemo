@@ -1,5 +1,8 @@
 # Note
-The data required for this code to run is not provided due to the sensitive nature of the data.
+The data required for this code to run is not provided due to it being of a sensitive nature.
+* `main.py` is the main utility for loading in the data, conducting the train-test split, training models (with cross-validation), and plotting train/test loss curves.
+* `model.py` constructs the LSTM model with the appropriate PyTorch class.
+* `model_training.py` provides utilities to segment the data for cross-validation and a function to run the desired number of training epochs; native PyTorch data train-test splitting utilities did not support some of the flexibility I wanted.
 
 # Requirements
 
